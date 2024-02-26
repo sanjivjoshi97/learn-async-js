@@ -1,1 +1,5 @@
 Explain the code execution based on the order of the messages logged in src/quiz/promise-2darray.txt.
+
+At first the sum function was created. Next at line 31 the sum function was called once and at line 38 the sum was
+called as well. Since both were promises, but that they had to be executed parallel so promise was expected to return.
+Since, the second call was sooner to complete, it had to complete and yield for the first call.
